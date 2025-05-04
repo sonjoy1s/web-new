@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.banner {
+    background-image: url('images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left, bottom right;
+    height: 600px;
+    width: 1320px;
+    position: relative;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 700px;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+
+.banner p{
+    font-size: 28px;
+    text-shadow: 1px 1px 3px #000;
+    color: #FFFFFF;
+    margin-top: 75px;
+}
+
+.banner h1{
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: 2px 2px 5px #000;
+    color: #FFFFFF;
+    margin: 70px;
+}
+
+
+.box{
+    margin-left: 700px;
+    margin-right: 700px;
+}
+.box-container {
+    text-align: center;
+    justify-content: center;
+    
+}
+.box-container h1{
+    color: #FF0000;
+    font-size: bold;
+}
+.box-container p{
+    color: #FF0000;
+    font-size: 24px;
+}
+.box-container h3{
+    color: #070211;
+    font-size: bold;
+}
+.party-welcome{
+    background-image: url('images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left, bottom right;
+    height: 600px;
+    width: 1320px;
+    position: relative;
+    text-align: start;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 700px;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+.container-party-welcome h1{
+color: #FFFFFF;
+font-size: 64px;
+margin-left: 50px;
+}
+.container-party-welcome p{
+color: #FFFFFF;
+font-size: regular;
+margin-left: 50px;
+}
+
+.btn{
+    color: #FFFFFF;
+    font-size: bold;
+    margin-left: 50px;
+    background-color: rgb(105, 71, 71);
+    border: rgb(18, 95, 129);
+    border-radius: 5px;
+    width: 103px;
+    height: 24px;
+}
